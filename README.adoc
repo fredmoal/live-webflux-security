@@ -1,0 +1,31 @@
+= Webflux security demo
+
+Reactive Webflux Spring Boot Demo application with :
+
+* spring security authentication with jwt token
+* live stream of notifications (APPLICATION_STREAM_JSON_VALUE)
+* REST server [spring boot 2.2.5]
+* OpenJFX client [openJDK 13]
+* DTO with ModelMapper
+
+
+== Run
+
+with maven :
+
+* run the server with `mvn spring-boot:run` in `webflux-jwt-server` directory
+* run some clients with `mvn javafx:run` in `webflux-jfx-client` directory
+
+== Use
+
+Test login with 2 registered users :
+
+* username fred, password fred with USER role,
+* username admin, password admin with USER and ADMIN roles
+
+
+== Demo
+
+Server : https://youtu.be/H-ikMFRwVcM
+
+Client : TODO
